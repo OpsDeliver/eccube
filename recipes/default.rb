@@ -19,7 +19,7 @@ script "copy_files" do
   user "root"
   cwd "/tmp"
   code <<-EOH
-    wget #{node['eccube']['url']}/#{node['eccube']['filename']}
+    wget #{node['eccube']['url']}#{node['eccube']['filename']}
     unzip #{node['eccube']['filename']}
     cp -a #{node['eccube']['dirname']}/data #{node['eccube']['dirname']}/eccube
     cp -a #{node['eccube']['dirname']}/eccube /var/www/

@@ -3,7 +3,7 @@ eccube CHANGELOG
 
 This file is used to list changes made in each version of the eccube cookbook.
 
-0.1.0
+0.1.1
 -----
 - [your_name] - Initial release of eccube
 

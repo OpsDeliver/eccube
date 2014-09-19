@@ -1,6 +1,6 @@
 default["eccube"]["dirname"] = "eccube-2.13.2"
 default["eccube"]["filename"] = "eccube-2.13.2.zip"
-default["eccube"]["url"] = "http://www.ec-cube.net/download"
+default["eccube"]["url"] = "http://downloads.ec-cube.net/src/"
 default["eccube"]["database"]["_DATABASE_NAME"] = "eccube_db"
 default["eccube"]["database"]["_USER_NAME"] = "eccube_db_user"
 default["eccube"]["database"]["_USER_PASSWORD"] = ""
