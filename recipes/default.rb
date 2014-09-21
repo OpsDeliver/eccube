@@ -21,8 +21,8 @@ script "copy_files" do
   code <<-EOH
     wget #{node['eccube']['url']}#{node['eccube']['filename']}
     unzip #{node['eccube']['filename']}
-    cp -a #{node['eccube']['dirname']}/data #{node['eccube']['dirname']}/eccube
-    cp -a #{node['eccube']['dirname']}/eccube /var/www/
+    cp -a #{node['eccube']['dirname']}/data #{node['eccube']['dirname']}/html
+    cp -a #{node['eccube']['dirname']}/html /var/www/eccube
   EOH
 end
 
